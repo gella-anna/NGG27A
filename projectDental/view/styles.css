@@ -1,0 +1,266 @@
+h1  {
+    color: rgb(69, 176, 230);
+  }
+
+  a:hover{
+
+    color:brown
+
+  }
+
+  p {
+    font-family: arial;
+  }
+  
+  h1{
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .bodyIndex { 
+    border-style: double;
+    border-color: cornflowerblue;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  img { 
+    height: 220px;
+    margin: 40px;
+    padding: auto;
+    border-style: dotted;
+    border-color: cadetblue;
+  }
+body {
+ background-image: url('../images/dentalb.jpg');
+ opacity: 0.9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #74efe38e;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(68, 83, 213, 0.747);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgba(99, 255, 244, 0.512);
+  color: rgb(255, 255, 255);
+}
+
+.bold {
+  font-family: bold;
+  font-style: oblique;
+}
+
+#home {
+  color: rgba(55, 78, 255, 0.823);
+  font-style: oblique;
+  padding: 2%;
+}
+
+iframe {
+  margin: 5%;
+  border-style: double;
+  border-radius: 20px;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+}
+
+p {
+  border-style: hidden;
+    border-color: cornflowerblue;
+    margin: 15px;
+    padding: 20px;
+}
+
+form {
+  border-style: double;
+  border-color: rgb(57, 57, 226);
+  margin-left: 5%;
+}
+
+#reg {
+  font-weight: bold;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  color: rgba(85, 142, 234, 0.903);
+}
+
+.containerreg {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+  color: rgb(57, 57, 226);
+}
+
+.item {
+  order: 5; /* default is 0 */
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #88ddf0cd;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: body; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 20px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+a:link {
+  color: red;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white; 
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#NEW 
+{ background-image: url(../images/dentalb.jpg); }
+
+h2 {
+  color: #2136f3cf;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+#newtext {
+  color: #698fff;
+}
